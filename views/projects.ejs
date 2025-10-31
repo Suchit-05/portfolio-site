@@ -1,0 +1,17 @@
+<section id="projects" class="container py-5">
+  <h2>Projects</h2>
+  <div class="row g-4">
+    <% projects.forEach(project => { %>
+      <div class="col-md-6">
+        <div class="card h-100">
+          <img src="<%= project.image %>" class="card-img-top" alt="<%= project.title %> Screenshot" />
+          <div class="card-body">
+            <h3 class="card-title"><%= project.title %></h3>
+            <p class="card-text"><%= project.description %></p>
+            <a href="<%= project.link %>" target="_blank" class="btn btn-outline-primary">View Project</a>
+          </div>
+        </div>
+      </div>
+    <% }) %>
+  </div>
+</section>
