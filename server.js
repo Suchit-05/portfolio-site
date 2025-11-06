@@ -27,7 +27,7 @@ app.get("/projects", (req, res) => {
       title: "Campus Connect",
       image: "/assets/campus-connect.png",
       description: "A student-faculty portal for announcements, messaging, and event updates.",
-      link: "https://kzmg8dp5188yw517z22g.lite.vusercontent.net/"
+      link: "https://github.com/Suchit-05/v0-campus-connect"
     },
     {
       title: "Razer Website Clone",
